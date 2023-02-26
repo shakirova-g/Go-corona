@@ -91,8 +91,45 @@ body {
 }
 
 [class*=__container] {
-  max-width: 1057px;
+  max-width: 1087px;
   margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 1057px) {
+  [class*=__container] {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  [class*=__container] {
+    max-width: 760;
+  }
+  [class*=__container] .header__button {
+    flex: 0 0 170px;
+  }
+  [class*=__container] .menu__item {
+    margin: 0 0 30px 0;
+  }
+}
+@media (max-width: 760px) {
+  [class*=__container] {
+    max-width: 320px;
+  }
+  [class*=__container] .header__button {
+    flex: 0 0 85px;
+  }
+  [class*=__container] .header__logo {
+    flex: 0 0 40px;
+    overflow: hidden;
+  }
+}
+.header {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 50;
 }
 
 .header__container {
@@ -120,6 +157,10 @@ body {
 .menu__list {
   display: flex;
   gap: 40px;
+}
+
+.menu__item {
+  margin: 0 0 40px 0;
 }
 
 .menu__link {
@@ -154,4 +195,149 @@ body {
 
 .button_blue {
   background-color: #4285F4;
+}
+
+.get-started {
+  background-color: #FAFBFD;
+}
+
+.get-started__container {
+  padding: 150px 15px 50px 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.get-started__content {
+  flex: 0 1 48%;
+  padding: 0 0 0 20px;
+}
+
+.get-started__block-text {
+  max-width: 410px;
+}
+
+.block-text__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  color: #000000;
+  margin: 0 0 15px 0;
+}
+
+.block-text__title_blue span {
+  color: #4285F4;
+}
+
+.block-text__text {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #616161;
+  margin: 0 0 24px 0;
+}
+
+.get-started__video {
+  margin: 0 0 0 20px;
+  flex: 1 1 100%;
+  margin: 60px 0 0 0;
+  padding: 0 0 0 20px;
+}
+
+.video-get-started {
+  display: inline-flex;
+}
+
+.video-get-started__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 0 0 0 12px;
+}
+
+.video-get-started__title {
+  padding: 0 0 5px 0;
+  font-family: Rubik;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  font-family: Rubik;
+  color: #B0B0B0;
+}
+
+.video-get-started__text {
+  font-family: Rubik;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 11px;
+  letter-spacing: 0.165em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #000000;
+  letter-spacing: 0.165em;
+}
+
+.get-started__image {
+  flex: 0 1 52%;
+  position: relative;
+  z-index: 2;
+}
+
+.get-started__image img {
+  max-width: 100%;
+}
+
+.stay-safe__container {
+  padding: 150px 15px 50px 15px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.stay-safe__image {
+  margin-right: 150px;
+}
+
+.stay-safe__content {
+  flex: 0 1 48%;
+  padding: 0 0 0 20px;
+}
+
+.stay-safe__block-text {
+  max-width: 410px;
+}
+
+.block-text__title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 126%;
+  color: #000000;
+  margin: 0 0 15px 0;
+}
+
+.pink span {
+  color: #EC5863;
+}
+
+.block-text__text {
+  font-family: Rubik;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0.08em;
+  text-align: left;
+  color: #616161;
+  margin: 0 0 24px 0;
 }
