@@ -84,8 +84,7 @@ body{
    min-height: 115px;
    align-items: center;
 }
-.header__logo {
-}
+
 .header__menu {
    flex: 1 1 auto;
 }
@@ -195,9 +194,6 @@ body{
    color: #616161;
    margin: 0 0 24px 0;
 }
-.block-text__button {
-}
-
 .get-started__video {
    margin: 0 0 0 20px;
    flex: 1 1 100%;
@@ -207,8 +203,6 @@ body{
 }
 .video-get-started {
    display: inline-flex;
-}
-.video-get-started__icon {
 }
 .video-get-started__body {
    display: flex;
@@ -251,8 +245,6 @@ body{
    max-width: 100%;
 }
 
-.stay-safe {
-}
 .stay-safe__container {
    padding: 85px 15px 90px 15px;
    display: flex;
@@ -270,24 +262,16 @@ body{
 .stay-safe__block-text {
    max-width: 410px;
 }
-.block-text {
-}
+
 .block-text__title_pink span {
    color: #EC5863;
-}
-.block-text__button {
-}
-.button {
 }
 
 .experts {
    background-color: #FAFBFD;
    padding: 110px 0 70px 0px;
 }
-.experts__container {
-}
-.experts__statistics {
-}
+
 .statistics-experts {
    max-width: 635px;
    margin: 0 auto;
@@ -373,16 +357,9 @@ body{
 .experts__block-text {
    max-width: 400px;
 }
-.block-text {
-}
+
 .block-text__title_violet span{
    color: #587EEC;
-}
-.block-text__text {
-}
-.block-text__button {
-}
-.button {
 }
 
 .experts__talk {
@@ -407,7 +384,7 @@ body{
    border-radius: 8px;
    width: 520px;
    height: 285px;
-   margin: 35px 0px 0px -63px
+   margin: 35px 0px 0px -63px;
    padding: 0 0 25% 0;
    position: relative;
 }
@@ -459,14 +436,6 @@ body{
 .block-text__text_mw {
    max-width: 600px;
    margin: 0 auto;
-}
-
-.healthcare {
-
-}
-
-.healthcare__container {
-
 }
 
 .healthcare__block-text {
