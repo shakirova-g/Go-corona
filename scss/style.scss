@@ -43,7 +43,6 @@ body{
    }
    }
 
-
 @media (max-width: 760px) {
    [class*="__container"] {
       max-width: 320px;
@@ -54,8 +53,8 @@ body{
          flex: 0 0 40px;
          overflow: hidden;
       }
-      .menu {
-         overflow: hidden;
+      .menu__body {
+         display: none;
       }
      }
    }
@@ -119,6 +118,14 @@ body{
    letter-spacing: 0.14em;
    color: #000000;
    text-transform: uppercase;
+}
+
+.hamb-menu {
+   display: none;
+}
+
+.popup {
+   display: none;
 }
 
 .button {
