@@ -180,6 +180,7 @@ body{
    color: #000000;
    margin: -10px 0 10px 0;
    letter-spacing: 0.018em;
+   flex: auto;
 }
 
 .block-text__title_blue span {
@@ -440,6 +441,8 @@ body{
 
 .healthcare__block-text {
    margin: 95px 0 70px 0;
+   display: flex;
+   flex-wrap: wrap;
 }
 
 .healthcare__items {
@@ -468,6 +471,7 @@ body{
    padding: 35px 35px ;
    text-align: center;
    z-index: 2;
+   height: 100%;
 }
 .item-healthcare__icon {
    margin: 0 0 65px 0;
