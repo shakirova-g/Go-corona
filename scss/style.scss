@@ -282,14 +282,14 @@ body{
 
 .experts {
    background-color: #FAFBFD;
-   padding: 105px 0 70px 0px;
+   padding: 110px 0 70px 0px;
 }
 .experts__container {
 }
 .experts__statistics {
 }
 .statistics-experts {
-   max-width: 655px;
+   max-width: 635px;
    margin: 0 auto;
    position: relative;
 }
@@ -310,7 +310,7 @@ body{
    height: 65px;
    transform: rotate(-30deg);
    bottom: -20px;
-   left: -15px;
+   left: -50px;
    border-radius: 16px;
 } 
 .statistics-experts__decor_2{
@@ -318,16 +318,16 @@ body{
    height: 96px;
    transform: rotate(105deg);
    top: -40px;
-   left: 210px;
+   left: 200px;
    right: 325px;
    border-radius: 30px;
 
 }
 .statistics-experts__decor_3{
-   width: 127px;
-   height: 127px;
+   width: 130px;
+   height: 130px;
    transform: rotate(-30deg);
-   right: -50px;
+   right: -70px;
    top: 0px;
    bottom: -35px;
    border-radius: 30px;
@@ -335,11 +335,12 @@ body{
 }
 
 .body-statistics-experts {
-   padding: 30px 80px 30px 80px;
-   width: 655px;
-   height: 115px;
+   padding: 30px 90px 30px 90px;
+   width: 680px;
+   height: 122px;
    display: flex;
-   align-items: center;
+   align-items: flex-start;
+   margin: 0 0 0 -30px;
 }
 .body-statistics-experts__item {
    width:33%;
@@ -349,21 +350,20 @@ body{
    font-weight: 700;
    font-size: 36px;
    line-height: 43px;
-   align-items: center;
-   text-align: center;
+   text-align: start;
    letter-spacing: 0.14em;
    color: #EC5863;
+   padding: 0 0 5px 0;
 }
 .body-statistics-experts__text {
    font-family: 'Rubik';
    font-weight: 700;
    font-size: 11px;
    line-height: 13px;
-   align-items: center;
+   text-align: start;
    letter-spacing: 0.37em;
    text-transform: uppercase;
    color: #000000;
-   text-align: center;
 }
 .experts__talk {
    display: flex;
@@ -394,9 +394,9 @@ body{
 .experts__content {
    flex: 0 1 50%;
    width: 50%;
-   padding: 50px 0px 115px 25px;
+   padding: 105px 0px 0 15px;
    min-width: 350px;
-   margin: 105px 75px 0 15px;
+   margin: 40px 0px 115px 30px;
 }
 
 .experts__video {
@@ -407,7 +407,7 @@ body{
    border-radius: 8px;
    width: 520px;
    height: 285px;
-   margin: 55px 0 0 -115px;
+   margin: 35px 0px 0px -63px
    padding: 0 0 25% 0;
    position: relative;
 }
