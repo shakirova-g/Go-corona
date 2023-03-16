@@ -188,14 +188,6 @@ body {
   text-transform: uppercase;
 }
 
-.hamb-menu {
-  display: none;
-}
-
-.popup {
-  display: none;
-}
-
 .button {
   color: #fcfdfe;
   height: 40px;
